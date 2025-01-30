@@ -72,7 +72,8 @@ public static void main(String[] args) {
            }
         }
     }
-public void insertMiddle(int data,int pos) {
+public void insertMiddle(int data,int pos) 
+{
     {    
         Node newNode = new Node(data);    
         Node temp=head;
